@@ -1,7 +1,7 @@
 import React from "react";
 
-const Results = () => {
-  return <div>Results</div>;
+const Results = ({ userInput }) => {
+  return console.log(userInput);
 };
 
 export default Results;
